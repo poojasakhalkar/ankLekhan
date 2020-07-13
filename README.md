@@ -6,3 +6,5 @@ Python get_value.py argumnent
 
 argumnent: Pass any number upto 9 digits. 
 
+Output: Devnagari format output will get store inside the output.docx file.
+
