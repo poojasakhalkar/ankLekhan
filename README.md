@@ -1,4 +1,4 @@
-# 🔢 Devanagari Number Converter
+# 🔢 ankLekhan - Devanagari Number Converter
 
 This project helps convert **numbers (up to 9 digits)** into their equivalent representation in **Devanagari script**, commonly used in Marathi, Hindi and other Indian languages.
 
