@@ -1,5 +1,16 @@
-# ankLekhan-
-This is the directory which helps to convert numbers into the Devnagari format (up to 9 digits).
+# 🔢 Devanagari Number Converter
+
+This project helps convert **numbers (up to 9 digits)** into their equivalent representation in **Devanagari script**, commonly used in Marathi, Hindi and other Indian languages.
+
+---
+
+## 🚀 How to Run
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/devnagari-number-converter.git
+cd ankLekhan
 
 Run:
 Python get_value.py argumnent
