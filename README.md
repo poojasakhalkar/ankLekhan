@@ -1,6 +1,8 @@
 # 🔢 ankLekhan
 
-ankLekhan is a standalone desktop application built with Python and Streamlit. It can be run with or without a Python interpreter installed on the system. This repository includes everything you need to either run the app directly or build your own executable using PyInstaller.
+ankLekhan is a standalone desktop application built with Python and Streamlit. The application helps convert numbers (up to 9 digits) into their equivalent representation in Devanagari script, commonly used in Marathi, Hindi and other Indian languages. 
+
+It can be run with or without a Python interpreter installed on the system. This repository includes everything you need to either run the app directly or build your own executable using PyInstaller.
 
 ### 🚀 Features
 1. Run Python-based Streamlit app as a standalone .exe file
@@ -12,13 +14,13 @@ ankLekhan is a standalone desktop application built with Python and Streamlit. I
 
       | Folder/File        | Purpose                                                          |
       | ------------------ | ---------------------------------------------------------------- |
-      | `application/`     | All Python modules and logic are stored here                     |
-      | `hooks/`           | PyInstaller hook scripts (e.g., to include Streamlit properly)   |
-      | `config/`          | Static resources                                                 |
-      | `ankLekhan.py`     | Main script to launch the Streamlit app                          |
-      | `ankLekhan.spec`   | PyInstaller configuration file                                   |
-      | `requirements.txt` | Lists all Python packages required to run the app                |
-      | `ankLekhan.exe`    | Auto-generated final .exe (after build)                          |
+      | application/       | All Python modules and logic are stored here                     |
+      | hooks/             | PyInstaller hook scripts (e.g., to include Streamlit properly)   |
+      | config/            | Static resources                                                 |
+      | ankLekhan.py       | Main script to launch the Streamlit app                          |
+      | ankLekhan.spec     | PyInstaller configuration file                                   |
+      | requirements.txt   | Lists all Python packages required to run the app                |
+      | ankLekhan.exe      | Auto-generated final .exe (after build)                          |
 
 
 ## 🛠️ Running the Application
@@ -29,14 +31,17 @@ ankLekhan is a standalone desktop application built with Python and Streamlit. I
     
   #### ✅ Option 2: Run Using Python
   If you have Python installed:
-  ##### 🧰 Install Dependencies
+  
+  🧰 **Install Dependencies**
+    
     pip install -r requirements.txt
     
-  
-  ##### Run the app:
+  ▶️ **Run the application:**
+    
     python ankLekhan.py
 
   This will also launch the app at http://localhost:8501/.
+
 
 ## 🏗️ Build Instructions
   Steps to create a standalone .exe file using PyInstaller:
