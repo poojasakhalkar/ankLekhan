@@ -44,15 +44,15 @@ ankLekhan is a standalone desktop application built with Python and Streamlit. I
   1. Write application logic inside the application/ folder.
   2. Create a hooks/ folder and add a custom hook for streamlit.
   3. Generate the .spec file:
-       ''' bash
-         pyi-makespec --onefile --additional-hooks-dir=./hooks ankLekhan.py
-       '''
+      ```bash
+     pyi-makespec --onefile --additional-hooks-dir=./hooks ankLekhan.py
+       ```
     
   5. Update the generated ankLekhan.spec file: add paths for datas, hookspath, and hiddenimports as needed.
   6. Build the executable:
-      ''' bash
+     ```bash
          pyinstaller ankLekhan.spec --clean
-      '''
+      ```
  
 
 
